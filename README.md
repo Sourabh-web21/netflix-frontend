@@ -1,12 +1,19 @@
-# React + Vite
+Movie Finder App 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that lets you discover and search for movies from The Movie Database (TMDb) API. Users can browse popular movies, search for specific titles, and view detailed information about each movie.
 
-Currently, two official plugins are available:
+Features
+1.Search Movies: Quickly find movies by title.
+2.Browse Popular Movies: Displays trending/popular movies by default.
+3.Movie Details: Click on a movie card to view overview, release date, rating, and poster.
+4.Responsive UI: Works across desktop and mobile devices.
+5.Loading & Error Handling: Shows a loader while fetching data and displays error messages if requests fail.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React – Frontend library for building the UI
+Tailwind CSS – Styling components and layout
+TMDb API – Fetching movie data
+React Hooks – useState and useEffect for state management and API calls
+Fetch API – Handling network requests
+Vite – Development server and build tool
